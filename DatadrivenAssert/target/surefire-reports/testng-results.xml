@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-Suite" duration-ms="53568" started-at="2020-11-09T03:35:59Z" finished-at="2020-11-09T03:36:53Z">
+    <groups>
+    </groups>
+    <test name="mytest" duration-ms="53568" started-at="2020-11-09T03:35:59Z" finished-at="2020-11-09T03:36:53Z">
+      <class name="com.testcases.LoginTC">
+        <test-method status="PASS" signature="LoginPagee(java.util.Map)[pri:0, instance:com.testcases.LoginTC@516be40f]" name="LoginPagee" duration-ms="19899" started-at="2020-11-09T03:36:00Z" data-provider="fetchAll" finished-at="2020-11-09T03:36:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{url=http://www.automationpractice.com/, email=seleniumaimore@gmail.com, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPagee -->
+        <test-method status="PASS" signature="LoginPagee(java.util.Map)[pri:0, instance:com.testcases.LoginTC@516be40f]" name="LoginPagee" duration-ms="33055" started-at="2020-11-09T03:36:20Z" data-provider="fetchAll" finished-at="2020-11-09T03:36:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{url=http://www.automationpractice.com/, email=seleniumaimore@gmail.com, Browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPagee -->
+      </class> <!-- com.testcases.LoginTC -->
+    </test> <!-- mytest -->
+  </suite> <!-- Test-Suite -->
+</testng-results>
